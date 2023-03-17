@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  @apply bg-purple-500 px-2 py-1 rounded-lg text-white
+}
+
+.btn-pink {
+    @apply bg-pink-500 
+}
+.btn-yw {
+    @apply bg-yellow-400
+}
